@@ -1,0 +1,14 @@
+[package]
+name = "rust_lsp_liskov_substituition_principal"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "lsp"
+path = "src/lsp.rs"
+
+[[bin]]
+name = "not_lsp"
+path = "src/not_lsp.rs"
+
+[dependencies]
